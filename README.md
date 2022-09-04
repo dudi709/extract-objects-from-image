@@ -13,7 +13,7 @@ Object detection is performed by YOLOv3 - object detector.
   pip install pillow
   ```
 Before executing the [main.py](https://github.com/dudi709/extract-objects-from-image/blob/main/main.py) file:
-- Place your images under `inputs/` directory.
+- Place your images under `input/` directory.
 - Download pretrained [model](https://drive.google.com/file/d/19XC9ujio7AwpT52tcWiUmaoxoDWdjrQw/view?usp=sharing) file and place it under the `model/` directory.
 - You can select the objects you want to cut from the images by changing the default value of the `objects_to_extract` argument found in the [main.py](https://github.com/dudi709/extract-objects-from-image/blob/main/main.py) file.
 
